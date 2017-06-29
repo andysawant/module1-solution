@@ -4,7 +4,7 @@
   .controller('MyFirstController',MyFirstController);
   MyFirstController.$inject=['$scope','$filter'];
   function MyFirstController($scope,$filter){
-    $scope.foodItems="";
+    $scope.foodItems=""; 
     $scope.foodResponse="";
     $scope.submitFoodItems=function(){
       if(foodItemCount($scope.foodItems)==0){
